@@ -13,7 +13,7 @@ export default function RootLayout() {
       <header className="header">
         <div>
           <div style={{ flexGrow: 1 }}>
-            <p className="title">Clerk + React + React Router App</p>
+            <p className="title">Teleradiology</p>
           </div>
           <SignedIn>
             <UserButton afterSignOutUrl='/sign-in' />
